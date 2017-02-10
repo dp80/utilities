@@ -1,8 +1,8 @@
 $username = "devopsazuresvc001"
-$azurePassword = "fan.joy-27"
+$azurePassword = "fan"
 $location = 'West US'
 $resourceGroupName = 'BastionResourceGroup'
-$subscriptionName = 'IMAP-EDW-Dev-ITG'
+$subscriptionName = 'IM-DW-Dev-ITG'
 
 $password = ConvertTo-SecureString $azurePassword -ASPlainText -Force
 $psCred = New-Object System.Management.Automation.PSCredential($username, $password)
